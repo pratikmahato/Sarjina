@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarjina Mahato | Fashion & Floral Designer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;600&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #F5F5F1; color: #2D3A2D; }
+        h1, h2, h3 { font-family: 'Cormorant Garamond', serif; }
+        .hero-gradient { background: linear-gradient(rgba(245, 245, 241, 0.1), rgba(245, 245, 241, 1)); }
+    </style>
+</head>
+<body class="antialiased">
+
+    <nav class="flex justify-between items-center px-8 py-6 sticky top-0 bg-[#F5F5F1]/80 backdrop-blur-md z-50">
+        <div class="text-2xl font-semibold tracking-widest uppercase">Sarjina</div>
+        <div class="space-x-8 text-sm uppercase tracking-widest font-light">
+            <a href="#work" class="hover:text-pink-400 transition">Work</a>
+            <a href="#about" class="hover:text-pink-400 transition">About</a>
+            <a href="mailto:contact@sarjina.com.np" class="hover:text-pink-400 transition">Contact</a>
+        </div>
+    </nav>
+
+    <header class="relative h-[80vh] flex items-center px-8 lg:px-24">
+        <div class="z-10 max-w-2xl">
+            <h1 class="text-7xl lg:text-9xl mb-4 italic">Sarjina Mahato</h1>
+            <p class="text-xl lg:text-2xl font-light mb-8 tracking-wide">
+                Fashion Designer & Florist — Intertwining fabric with nature's finest silhouettes.
+            </p>
+            <a href="#work" class="px-8 py-4 border border-[#2D3A2D] hover:bg-[#2D3A2D] hover:text-white transition duration-500 uppercase text-xs tracking-[0.2em]">
+                View Collection
+            </a>
+        </div>
+        <div class="absolute right-0 top-0 w-full lg:w-1/2 h-full bg-[#E2B4B4]/20 overflow-hidden -z-10">
+            <img src="https://images.unsplash.com/photo-1594744803329-a584af1cae24?auto=format&fit=crop&q=80" alt="Fashion Design" class="w-full h-full object-cover opacity-60">
+        </div>
+    </header>
+
+    <section id="work" class="px-8 py-24">
+        <h2 class="text-4xl mb-12 text-center uppercase tracking-widest">Selected Works</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="group cursor-pointer">
+                <div class="overflow-hidden bg-gray-200 aspect-[3/4]">
+                    <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&q=80" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+                </div>
+                <h3 class="mt-4 text-2xl italic">Botanical Couture</h3>
+                <p class="text-sm uppercase tracking-tighter opacity-60">Fashion Design • Spring 2024</p>
+            </div>
+
+            <div class="group cursor-pointer lg:mt-12">
+                <div class="overflow-hidden bg-gray-200 aspect-[3/4]">
+                    <img src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?auto=format&fit=crop&q=80" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+                </div>
+                <h3 class="mt-4 text-2xl italic">Wilderness Arrangements</h3>
+                <p class="text-sm uppercase tracking-tighter opacity-60">Floral Styling • Editorial</p>
+            </div>
+
+            <div class="group cursor-pointer">
+                <div class="overflow-hidden bg-gray-200 aspect-[3/4]">
+                    <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&q=80" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+                </div>
+                <h3 class="mt-4 text-2xl italic">Silk & Petals</h3>
+                <p class="text-sm uppercase tracking-tighter opacity-60">Textile Concept</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="about" class="bg-[#2D3A2D] text-[#F5F5F1] px-8 py-20 text-center">
+        <h2 class="text-5xl mb-6 italic">Let's Create Together</h2>
+        <p class="max-w-xl mx-auto font-light leading-relaxed mb-10">
+            Based in your city, available for custom fashion commissions and luxury floral styling for events.
+        </p>
+        <div class="flex justify-center space-x-6 text-sm uppercase tracking-widest underline decoration-pink-300">
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+            <a href="contact@sarjina.com.np">Email</a>
+        </div>
+        <p class="mt-16 text-[10px] opacity-40 uppercase tracking-[0.3em]">© 2026 Sarjina Mahato</p>
+    </footer>
+
+</body>
+</html>
